@@ -1,0 +1,76 @@
+job_descriptions = {
+     "Python Developer": (
+        "Python, Flask, Django, Fastapi, Scripting, Automation, Backend Development, Api Development, Rest Api, Graphql, Sql, Mysql, Postgresql, Sqlite, Nosql, Mongodb, Redis, Orm, Sqlalchemy, Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Tensorflow, Keras, Pytorch, Nlp, Nltk, Spacy, Opencv, Data Structures, Algorithms, Oops, Multithreading, Multiprocessing, Json, Yaml, Csv, Exception Handling, Logging, Unit Testing, Pytest, Virtualenv, Pip, Conda, Poetry, Docker, Kubernetes, Aws, Azure, Gcp, Ec2, S3, Cloudwatch, Git, Github, Gitlab, Bitbucket, Ci/Cd, Jenkins, Github Actions, Bash Scripting, Linux, Ubuntu, Windows, Vs Code, Pycharm, Design Patterns, Microservices, Agile, Jira, Security, Jwt, Oauth2, Scraping, Beautifulsoup, Scrapy, Selenium, Pdf Generation, Celery, Rabbitmq, Kafka, Refactoring, Linting, Black, Flake8, Mypy, Documentation"
+    ),
+
+     "Data Science": (
+        "Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Statsmodels, Tensorflow, Keras, Pytorch, Deep Learning, CNN, RNN, NLP, Transformers, Huggingface, BERT, Sentiment Analysis, Topic Modeling, Recommendation Systems, Clustering, K-Means, Hierarchical Clustering, Classification, Regression, Decision Trees, Random Forest, SVM, XGBoost, LightGBM, Model Evaluation, Confusion Matrix, F1 Score, Precision, Recall, ROC AUC, Feature Selection, Feature Engineering, PCA, TSNE, Grid Search, Cross Validation, Hyperparameter Tuning, Deployment, Flask, Streamlit, MLflow, Docker, AWS, GCP, BigQuery, SQL, MongoDB, Data Wrangling, Data Cleaning, Missing Value Imputation, Outlier Detection, Time Series Analysis, ARIMA, Prophet, Statistics, Hypothesis Testing, A/B Testing, Experimental Design, Data Pipeline, Apache Airflow, ETL, Data Lake, Data Warehouse, Version Control, Git, Github, Bitbucket, Jupyter Notebook, VS Code, Pycharm, Agile, Jira, Problem Solving, Communication, Data Storytelling, Power BI, Tableau, Dashboards, Reporting, Business Understanding"
+    ),
+    "Java Developer": (
+        "Java, Core Java, Java 8, Spring, Spring Boot, Spring Security, Spring Data Jpa, Microservices, Restful Api, Multithreading, Concurrency, Collections, Streams, Lambda, Exception Handling, Jdbc, Jpa, Hibernate, Sql, Mysql, Postgresql, Oracle, Mongodb, Redis, Maven, Gradle, Docker, Jenkins, Git, Github, Bitbucket, Junit, Mockito, Log4J, Slf4J, Json, Gson, Jackson, Swagger, Openapi, Jwt, Oauth2, Tomcat, Jboss, Servlets, Jsp, Intellij Idea, Eclipse, Oops, Design Patterns, Solid, Tdd, Bdd, Cucumber, Api Gateway, Kafka, Rabbitmq, Load Balancing, Performance Tuning, Garbage Collection, Profiling, Soap, Wsdl, Xml, Xpath, Xslt, Agile, Jira, Nexus, Cloud, Aws, Azure, Gcp, Ec2, S3, Cloudwatch"
+    ),
+    "Web Developer (Frontend)": (
+        "Html, Css, Javascript, Es6, React, Vue, Angular, Typescript, Jquery, Bootstrap, Tailwind Css, Sass, Less, Webpack, Npm, Yarn, Vite, Dom Manipulation, Responsive Design, Media Queries, Accessibility, Semantic Html, Ajax, Rest Api, Json, Fetch, Axios, Api Integration, Cross-Browser Testing, Debugging, Lighthouse, Page Speed, Seo Basics, Figma, Adobe Xd, Github, Gitlab, Bitbucket, Version Control, Ci/Cd, Firebase, Localstorage, Sessionstorage, Browser Events, Custom Hooks, Redux, Context Api, React Router, State Management, Components, Lifecycle, Virtual Dom, Form Handling, Validation, Animations, Gsap, Framer Motion, Chart.Js, D3.Js, Testing, Jest, Enzyme, Vitest, Agile, Scrum"
+    ),
+    "Full Stack Developer": (
+        "Html, Css, Javascript, React, Vue, Angular, Node.Js, Express.Js, Mongodb, Mysql, Postgresql, Graphql, Rest Api, Json, Cors, Jwt, Oauth, Redux, Typescript, Docker, Git, Github, Jenkins, Nginx, Api Gateway, Serverless, Lambda, Firebase, Redis, Elasticsearch, Socket.Io, Authentication, Role Based Access, Ci/Cd, Testing, Mocha, Chai, Jest, Supertest, Deployment, Netlify, Heroku, Vercel, Aws, Ec2, S3, Cloudfront, Pm2, Process Manager, Error Handling, Logging, Nodemailer, Multer, Cron Jobs, Puppeteer, Stripe, Razorpay, Payment Integration, Agile, Devops"
+    ),
+    "Mobile App Developer": (
+        "Android, Java, Kotlin, Ios, Swift, Objective-C, React Native, Flutter, Dart, Xcode, Android Studio, Gradle, Navigation, Firebase, Push Notifications, Sqflite, Room, Core Data, Bluetooth, Camera, Maps, Geolocation, Background Tasks, Json, Rest Api, Graphql, State Management, Redux, Bloc, Riverpod, Provider, Animations, Testing, Unit Test, Integration Test, App Store, Play Store, Release Build, Code Signing, Device Compatibility, Cross-Platform, Native Modules, Gesture Handling, Async Storage, Security, Biometrics, Deep Linking, Crashlytics, Performance Monitoring"
+    ),
+    "Data Analyst": (
+        "Excel, Advanced Excel, Vlookup, Pivot Tables, Power Query, Power Bi, Tableau, Data Studio, Pandas, Numpy, Matplotlib, Seaborn, Data Cleaning, Data Wrangling, Sql, Mysql, Postgresql, Queries, Joins, Window Functions, Views, Stored Procedures, Statistics, Hypothesis Testing, Correlation, Regression, Dashboards, Storytelling, Reporting, Data Interpretation, Business Analysis, Time Series, Anomaly Detection, Outlier Handling, Data Modeling, Etl, Data Warehouse, Bigquery, Automation, Scripting, Python, Google Sheets, Macros, Slicers, Kpi, Metrics, Insights"
+    ),
+    "Artificial Intelligence": (
+        "Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, NLP, Neural Networks, CNN, RNN, LSTM, GANs, Reinforcement Learning, Supervised Learning, Unsupervised Learning, Semi-Supervised Learning, Transformers, BERT, GPT, Attention Mechanism, Tensorflow, Keras, Pytorch, Scikit-Learn, Numpy, Pandas, OpenCV, NLTK, SpaCy, YOLO, Object Detection, Face Recognition, OCR, Image Segmentation, Pose Estimation, Speech Recognition, Audio Processing, Chatbots, AI Ethics, Explainable AI, Bias Mitigation, Edge AI, Embedded AI, AI for IoT, Model Compression, Model Optimization, Quantization, Pruning, AutoML, Meta Learning, Few-Shot Learning, Zero-Shot Learning, Bayesian Inference, Probabilistic Models, Genetic Algorithms, Fuzzy Logic, Expert Systems, Prolog, Knowledge Representation, Ontology, Semantic Web, Logic Programming, Swarm Intelligence, Data Labeling, Annotation Tools, MLOps, MLflow, Azure AI, AWS AI, Google AI, AI APIs, Cloud Deployment, Flask, FastAPI, Streamlit, Git, GitHub, Docker, Kubernetes, Linux, VS Code, Pycharm, Communication, Teamwork, Problem Solving, Agile, JIRA"
+),
+
+    "Data Scientist": (
+        "Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Statsmodels, Tensorflow, Keras, Pytorch, Deep Learning, Cnn, Rnn, Nlp, Transformers, Huggingface, Bert, Sentiment Analysis, Topic Modeling, Recommendation Systems, Clustering, K-Means, Hierarchical, Classification, Regression, Decision Trees, Random Forest, Svm, Xgboost, Lightgbm, Model Evaluation, Confusion Matrix, F1 Score, Precision, Recall, Roc Auc, Feature Selection, Feature Engineering, Pca, Tsne, Grid Search, Cross Validation, Deployment, Flask, Streamlit, Mlflow, Docker, Aws, Gcp, Bigquery, Sql"
+    ),
+    "DevOps Engineer": (
+        "Linux, Bash, Shell Scripting, Docker, Kubernetes, Jenkins, Git, Github, Gitlab, Bitbucket, Ci/Cd, Terraform, Ansible, Puppet, Chef, Helm, Monitoring, Prometheus, Grafana, Datadog, Logging, Elk Stack, Splunk, Aws, Azure, Gcp, Ec2, S3, Cloudformation, Cloudwatch, Load Balancer, Vpc, Rds, Ebs, Lambda, Nginx, Apache, Ssl, Dns, Domain Config, Version Control, Ssh, Firewall, Network Protocols, Vpn, Http, Https, Deployment Automation, Blue Green Deployment, Canary Release, Scaling, Alerting, Incident Response"
+    ),
+    "Cloud Engineer": (
+        "Aws, Ec2, S3, Rds, Lambda, Cloudwatch, Cloudfront, Route53, Iam, Vpc, Security Groups, Cloudformation, Terraform, Devops, Azure, Gcp, Compute Engine, App Engine, Bigquery, Storage, Cloud Sql, Cloud Run, Docker, Kubernetes, Cloudbuild, Load Balancer, Auto Scaling, Dns, Cloud Functions, Cdn, Elastic Beanstalk, Kubectl, Eks, Gke, Aks, Cost Optimization, Billing, Monitoring, Site Reliability, Cloud Security, Firewall Rules, Vpn, Service Accounts, Key Management, Pub/Sub, Ci/Cd, Jenkins, Api Gateway, Api Management"
+    ),
+    "Cybersecurity Analyst": (
+        "Network Security, Firewalls, Ids, Ips, Vpn, Tls, Ssl, Encryption, Authentication, Authorization, Pentesting, Vulnerability Scanning, Nmap, Metasploit, Burpsuite, Wireshark, Kali Linux, Siem, Splunk, Snort, Soc, Threat Hunting, Incident Response, Malware Analysis, Digital Forensics, Cybersecurity Frameworks, Nist, Iso 27001, Compliance, Risk Management, Security Awareness, Access Control, Phishing Detection, Email Security, Endpoint Protection, Antivirus, Honeypots, Brute Force Prevention, Logs, Patches, Firejail, Malwarebytes"
+    ),
+    "HR Executive": (
+        "Recruitment, Sourcing, Screening, Onboarding, Payroll, Attendance Management, Performance Appraisal, Hrms, Grievance Handling, Employee Engagement, Exit Process, Offer Letter, Policy Drafting, Compliance, Pf, Esi, Labor Laws, Leave Management, Background Verification, Skill Matrix, Induction, Feedback Analysis, Surveys, Training Coordination, Hr Analytics, Reporting, Hrbp, Conflict Resolution, Exit Interview, Reference Check, Hiring Tracker, Recruitment Metrics, Hiring Pipeline, Recruitment Software, Team Management, Communication"
+    ),
+    "Sales Executive": (
+        "Lead Generation, Cold Calling, Email Pitching, B2B Sales, B2C Sales, Crm, Salesforce, Hubspot, Client Acquisition, Sales Pitch, Negotiation, Objection Handling, Closing Deals, Customer Relationship, Follow-Up, Revenue Generation, Pipeline Management, Territory Management, Product Demo, Pricing, Market Research, Competitor Analysis, Telesales, Up-Selling, Cross-Selling, Presentation Skills, Target Achievement, Monthly Targets, Communication, Confidence, After-Sales Support, Daily Reporting, Time Management"
+    ),
+    "Digital Marketing Executive": (
+        "Seo, On-Page Seo, Off-Page Seo, Sem, Google Ads, Facebook Ads, Instagram Ads, Content Marketing, Keyword Research, Backlinks, Ahrefs, Semrush, Moz, Analytics, Google Analytics, Google Tag Manager, Email Marketing, Mailchimp, Drip, Sms Campaigns, Influencer Marketing, Landing Pages, A/B Testing, Conversion Rate Optimization, Social Media Marketing, Linkedin, Youtube, Facebook, Reels, Brand Awareness, Engagement, Lead Generation, Hashtags, Canva, Video Editing, Marketing Automation, Funnel Strategy, Wordpress, Blogging"
+    ),
+    "Machine Learning": (
+        "Machine Learning, Supervised Learning, Unsupervised Learning, Classification, Regression, Clustering, SVM, Decision Tree, Random Forest, XGBoost, LightGBM, CatBoost, Naive Bayes, KNN, PCA, Feature Engineering, Feature Selection, Data Cleaning, Data Preprocessing, Outlier Detection, Normalization, Standardization, Cross Validation, Grid Search, Hyperparameter Tuning, Model Evaluation, Confusion Matrix, ROC Curve, Precision, Recall, F1 Score, Accuracy, AUC, Bias-Variance Tradeoff, Overfitting, Underfitting, Scikit-Learn, Tensorflow, Keras, Pytorch, Pandas, Numpy, Matplotlib, Seaborn, Statsmodels, Jupyter Notebook, Model Deployment, Flask, Streamlit, MLflow, FastAPI, Docker, AWS, GCP, Azure, Git, GitHub, Data Wrangling, SQL, SQLite, MongoDB, ETL, Data Pipeline, Apache Airflow, Data Visualization, Power BI, Tableau, Business Understanding, Problem Solving, Research, Agile, JIRA, Linux, VS Code, PyCharm"
+),
+    "Customer Support Representative": (
+        "Customer Service, Email Support, Chat Support, Call Support, Crm, Ticketing, Zendesk, Freshdesk, Salesforce, Empathy, Active Listening, Patience, Problem Solving, Complaint Resolution, Product Knowledge, Escalation Handling, Communication, Ms Office, Documentation, Response Time, Multi-Tasking, Data Entry, Voice Process, Non-Voice Process, Inbound Calls, Outbound Calls, Typing Speed, Customer Satisfaction, Follow-Up, Professionalism, Ticket Tracking, Support Tools, Remote Support, Feedback Collection"
+    ),
+    "Operations Manager": (
+        "Operations, Logistics, Supply Chain, Process Optimization, Workflow Design, Cost Reduction, Kpi Tracking, Vendor Management, Procurement, Inventory Management, Team Leadership, Reporting, Coordination, Documentation, Quality Control, Daily Operations, Scheduling, Order Fulfillment, Service Delivery, Resource Planning, Compliance, Safety Management, Warehouse Ops, Data Analysis, Productivity Improvement, Budget Planning, Mis Reports, Erp, Sap, Odoo, Lean Management, Six Sigma, Strategic Planning"
+    ),
+    "Finance Executive": (
+        "Tally, Gst, Tds, Income Tax, Accounting, Bookkeeping, Invoice Processing, Journal Entries, Reconciliation, Balance Sheet, Profit And Loss, Cash Flow, Audit Preparation, Accounts Payable, Accounts Receivable, Expense Tracking, Payroll Processing, Financial Statements, Excel, Pivot Tables, Vlookup, Ms Office, Bank Statements, Mis Reporting, Taxation, Budgeting, Cost Control, Depreciation, Working Capital, Cash Book, Tally Prime, Erp, Sap Fico, Credit Note, Debit Note, Trial Balance"
+    ),
+    "Content Writer": (
+        "Writing, Blog Writing, Web Content, Seo Writing, Proofreading, Editing, Storytelling, Creative Writing, Grammar, Readability, Plagiarism-Free, Keyword Research, Wordpress, Content Calendar, Meta Description, Headlines, Technical Writing, Press Release, Marketing Copy, Long Form Content, Short Form Content, Product Description, Landing Page, Newsletter, Email Writing, Linkedin Posts, Social Media Captions, Content Strategy, Google Docs, Canva, Notion, Tone Of Voice, Call To Action"
+    ),
+    "Administrative Assistant": (
+        "Ms Office, Word, Excel, Powerpoint, Outlook, Data Entry, Scheduling, File Management, Calendar Coordination, Appointment Booking, Travel Arrangements, Expense Reports, Meeting Minutes, Documentation, Scanning, Printing, Follow-Up, Vendor Coordination, Front Desk, Communication, Multitasking, Time Management, Professionalism, Clerical Work, Inventory Tracking, Petty Cash, Visitor Management, Stationery Management, Mail Handling, Office Supplies, Typing Speed, Courier Handling"
+    ),
+    "Graphic Designer": (
+        "Photoshop, Illustrator, Indesign, Canva, Figma, Adobe Xd, Logo Design, Social Media Posts, Brochure, Flyer, Poster, Banner, Branding, Typography, Color Theory, Composition, Layout Design, Creative Thinking, Wireframing, Prototyping, Image Editing, Vector Graphics, Raster Graphics, Print Design, Mockups, Ui Design, Ux Basics, Animation Basics, After Effects, Premiere Pro, 3D Modeling Basics, Packaging Design, Visual Hierarchy, Brand Identity, Client Feedback, Project Delivery"
+    ),
+    "Business Analyst": (
+        "Excel, Pivot Tables, Vlookup, Sql, Data Analysis, Business Requirements, Requirement Gathering, Stakeholder Communication, Brd, Frd, User Stories, Wireframing, Uml, Process Mapping, Gap Analysis, Kpis, Data Visualization, Tableau, Power Bi, Reporting, Dashboards, Presentation, Agile, Scrum, Jira, Confluence, Risk Analysis, Workflow Design, Documentation, Business Cases, Use Cases, Data Modeling, Er Diagrams, Change Management, Stakeholder Analysis, Sdlc, Problem Solving"
+    )
+
+
+    # 🔽 Continue same for the rest (Data Analyst, Data Scientist, etc.)
+}
