@@ -1,4 +1,4 @@
 pdfminer
 sentence-transformers
-
+pandas
 Flask
