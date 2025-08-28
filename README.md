@@ -1,4 +1,4 @@
-#  Project Explanation (Resume Matcher)
+#  Project Explanation (Resume ATS CHECKER)
 
 This project is a Flask-based Resume Matcher. Its goal is to compare a candidate’s resume with predefined job descriptions and rank which jobs are the best fit.
 
