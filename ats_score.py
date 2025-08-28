@@ -6,23 +6,18 @@ from pdfminer.high_level import extract_text
 from sentence_transformers import SentenceTransformer, util
 import torch
 
-# ✅ Avoid GPU delay if running on CPU
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
-# ✅ Initialize Flask app
 app = Flask(__name__)
 
-# ✅ Constants
 UPLOAD_FOLDER = 'resume'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# ✅ Load model once
-print("⏳ Loading model...")
+print(" Loading model...")
 MODEL = SentenceTransformer('all-MiniLM-L6-v2')
-print("✅ Model loaded.")
+print(" Model loaded.")
 
-# ✅ Clean text
 def clean_text(text):
     text = text.lower()
     text = re.sub(r'\S+@\S+', '', text)
@@ -32,19 +27,16 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
-# ✅ Extract and clean resume text
 def extract_resume_text(pdf_path):
     try:
         text = extract_text(pdf_path)
         return clean_text(text)
     except Exception as e:
-        print(f"❌ Error reading {pdf_path}: {e}")
+        print(f" Error reading {pdf_path}: {e}")
         return ""
 
-# ✅ Job descriptions (your existing dictionary)
 from job_descriptions import job_descriptions  # make sure this file exists and is clean
 
-# ✅ Semantic Match
 def get_job_matches(resume_text, top_n=3):
     job_titles = list(job_descriptions.keys())
     job_texts = [clean_text(desc) for desc in job_descriptions.values()]
@@ -54,7 +46,7 @@ def get_job_matches(resume_text, top_n=3):
         resume_embedding = MODEL.encode(resume_text, convert_to_tensor=True)
         similarity_scores = util.cos_sim(resume_embedding, job_embeddings)[0].cpu().tolist()
     except Exception as e:
-        print(f"❌ Embedding error: {e}")
+        print(f" Embedding error: {e}")
         return []
 
     top_indices = sorted(range(len(similarity_scores)), key=lambda i: similarity_scores[i], reverse=True)[:top_n]
@@ -63,7 +55,7 @@ def get_job_matches(resume_text, top_n=3):
     for rank, idx in enumerate(top_indices, 1):
         title = job_titles[idx]
         score = similarity_scores[idx] * 100
-        remark = "✅ Excellent" if score >= 75 else "⚠️ Average" if score >= 50 else "❌ Low"
+        remark = " Excellent" if score >= 75 else " Average" if score >= 50 else " Low"
         matches.append({
             "rank": rank,
             "job_title": title,
@@ -73,7 +65,6 @@ def get_job_matches(resume_text, top_n=3):
 
     return matches
 
-# ✅ API route
 @app.route('/match_resume', methods=['POST'])
 def match_resume():
     if 'resume' not in request.files:
@@ -99,11 +90,9 @@ def match_resume():
 
     return jsonify({"error": "Invalid file format. Only PDF allowed."}), 400
 
-# ✅ Root route
 @app.route('/')
 def index():
-    return "✅ Resume Matcher API is running!"
+    return " Resume Matcher API is running!"
 
-# ✅ Run app
 if __name__ == '__main__':
     app.run(debug=True)
