@@ -1,8 +1,8 @@
-# 🔎 Project Explanation (Resume Matcher API)
+#  Project Explanation (Resume Matcher API)
 
 This project is a Flask-based Resume Matcher. Its goal is to compare a candidate’s resume with predefined job descriptions and rank which jobs are the best fit.
 
-## 🔧 Main Components:
+##  Main Components:
 
 # Flask Web API
 
@@ -40,13 +40,13 @@ Scores are converted into percentages.
 
 # Remark system:
 
-✅ Excellent (≥ 75%)
+ Excellent (≥ 75%)
 
-⚠️ Average (50–75%)
+⚠ Average (50–75%)
 
-❌ Low (< 50%)
+ Low (< 50%)
 
-# 🎯 Why is this useful?
+#  Why is this useful?
 
 For Recruiters → Quickly screen resumes against multiple job roles.
 
